@@ -1,0 +1,43 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: gray;
+  font-family: 'Roboto', sans-serif;
+  font-size: xx-large;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app>.video {
+  border: solid 2px white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app>.video>.cam {
+  width: 400px;
+  height: 300px;
+}
+
+.app>.video>.canvas {
+  position: absolute;
+}
+
+.app>.video>.emotion {
+  display: flex;
+  width: 400px;
+  justify-content: center;
+  background-color: white;
+}
